@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #134e9b;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5em;
+  font-size: 1.5rem;
+  background-color: #023e8a;
+  padding: 1rem;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+a {
+  color: #87b6a7;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #87b6a7;
+}
+
+main {
+  margin: 1em;
+}
+
+.intro {
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+h1,
+h2 {
+  color: #87b6a7;
+}
+
+p {
+  color: #f79f79;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+figcaption {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  color: #ffffff;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #ffd166;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  color: #f79f79;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+.skills li::before {
+  content: "• ";
+  color: #f79f79;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
